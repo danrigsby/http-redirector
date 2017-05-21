@@ -5,8 +5,8 @@ A small NodeJS server to redirect all traffic to a new site
 # Install and Run
 
 ```bash
-$ npm install -g redis-commander
-$ node app.js -t 'https://www.MYBASEADDRESS.com'
+npm install -g http-redirector
+node app.js -r 'https://www.MYBASEADDRESS.com'
 ```
 
 # Usage
